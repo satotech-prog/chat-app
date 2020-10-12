@@ -33,12 +33,43 @@ padding: 46px 40px 0;
 .side-bar-header {
   height: 100px;
   padding: 0px 20px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  background-color: #253141;
 }
 
-.room {
+.header-name a{
+font-size: 16px;
+color: #FaFaFa;
+text-decoration: none;
+}
+
+.new-room {
+  font-size: 10px;
+}
+
+.new-room a{
+  color: deepskyblue;
+  padding: 14px 14px;
+  border: 1px solid lightblue;
+  text-decoration: none;
+}
+
+.rooms {
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0px 20px;
+  overflow: scroll;
+}
+
+.room {
+  margin: 20px 0 40px;
+}
+
+.room-name a{
+  color: white;
+  text-decoration: none;
 }
 
 
